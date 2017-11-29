@@ -1,0 +1,16 @@
+<%= form_tag ratings_path do %>
+  <%= label_tag(:song_name, "Song name") %>
+  <%= text_field_tag(:song_name) %>
+
+  <%= label_tag(:artist_name, "Artist name") %>
+  <%= text_field_tag(:artist_name) %>
+
+  <%= label_tag(:rating_num, "Rating") %>
+  <%= text_field_tag(:rating_num) %>
+
+  <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+
+  <%= submit_tag("Create Rating") %>
+<% end %>
+
+

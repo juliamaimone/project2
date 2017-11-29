@@ -1,0 +1,40 @@
+<% provide(:title, @user.name) %>
+<h3>User</h3>
+<p>Name: <%= @user.name if @user.name %></p>
+<p>Email: <%= @user.email if @user.email %></p>
+
+<% provide(:title, "New Rating") %>
+<h2>Create New Rating</h2>
+
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= form_for(:rating, url: rating_path) do |f| %>
+
+      <%= f.label :song %>
+      <%= f.text_field :song, class: 'form-control' %>
+
+      <%= f.label :stars %>
+      <%= f.text_field :stars, class: 'form-control' %>
+
+      <%= f.submit "Create Rating", class: "btn btn-primary" %>
+    <% end %>
+
+    
+  </div>
+</div>
+
+<p align="left">
+<%=image_tag '1.png' %> 
+<%=image_tag '2.png' %>
+<%=image_tag '3.png' %>
+<%=image_tag '4.png' %>
+<%=image_tag '5.png' %>
+<%=image_tag '6.png' %>
+<%=image_tag '7.png' %>
+<%=image_tag '8.png' %>
+<%=image_tag '10.JPG' %>
+<%=image_tag '11.png' %>
+
+</p>
+
+

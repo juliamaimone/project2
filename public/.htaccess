@@ -1,0 +1,5 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{HTTP_HOST} samreed.me$ [NC]
+RewriteCond %{HTTP_HOST} !fa17_proj2
+RewriteRule ^(.*)$ http://samreed.me/fa17_proj2/$1 [R=301,L]

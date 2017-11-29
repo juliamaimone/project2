@@ -1,0 +1,60 @@
+
+.user-container {
+  width: 600px;
+  overflow: hidden;
+}
+
+/* name of the menu item */
+.user {
+  float: left;
+  width: 35%;
+}
+
+/* div for the quantity number */
+.quantity-container {
+  padding-bottom: 10px;
+  padding-right: 3%;
+  float:left;
+}
+
+
+/* the < and > buttons */
+.quantity-buttons {
+  float: left;
+  padding-right: 10px;
+}
+
+.quantity-increase-button {
+  border: none;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  background-color: white;
+}
+
+.quantity-decrease-button {
+  border: none;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  background-color: white;
+}
+
+.quantity-increase-button:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+
+.quantity-decrease-button:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+
+/* the actual quantity number */
+.quantity {
+  margin: 0;
+  margin-left: 8px;
+}
+

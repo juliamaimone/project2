@@ -1,0 +1,61 @@
+
+
+
+<head>
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Hind">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Helvetica">
+  <script src="http://code.jquery.com/color/jquery.color-2.1.2.min.js"></script>
+
+
+</head>
+<html>
+  <div class="welcome-page">
+    <h1 class="title">RATE MUSIC NOW</h1>
+    <div class="navbar--container" id="navbar__container">
+      <ul class="navbar">
+      </ul>
+    </div>
+  </div>
+  <div class="about-page">
+  </div>
+<h2>Log in</h2>
+
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= form_for(:session, url: login_path) do |f| %>
+
+      <%= f.label :email %>
+      <%= f.email_field :email, class: 'form-control' %>
+
+      <%= f.label :password %>
+      <%= f.password_field :password, class: 'form-control' %>
+
+      <%= f.submit "Log in", class: "btn btn-primary" %>
+    <% end %>
+
+    <p>New user? <%= link_to "Sign up now!", signup_path %></p>
+  </div>
+</div>
+<p align="left">
+<%=image_tag '1.png' %> 
+<%=image_tag '2.png' %>
+<%=image_tag '3.png' %>
+<%=image_tag '4.png' %>
+<%=image_tag '5.png' %>
+<%=image_tag '6.png' %>
+<%=image_tag '7.png' %>
+<%=image_tag '8.png' %>
+<%=image_tag '10.JPG' %>
+<%=image_tag '11.png' %>
+
+</p>
+
+
+<body>
+
+
+
+</body>
+
+
+</html>
