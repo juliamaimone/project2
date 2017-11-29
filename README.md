@@ -2,7 +2,7 @@
 
 * Title:​ Song Rating Aggregator
 * Team​ ​Members:​ Julia Maimone, Tanji Saraf-Chávez, Sam Reed
-* Demo​ ​Link:​ songrating.me
+* Demo​ ​Link:​ https://drive.google.com/file/d/1i9WUsMp9dS67eshgutGzlBkHuuMq7UgE/view?usp=sharing
 
 * Idea:​ ​An application where users can rate and comment about songs. Users can also see what other users have rated and said about songs
 
