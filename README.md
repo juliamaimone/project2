@@ -26,6 +26,6 @@
 * Users can rate songs
 
 # Division​ ​of​ ​Labor: 
-* Julia:
-* Tanji:
+* Julia: Made ratings and styling
+* Tanji: Edited and inserted pictures
 * Sam: Made users and the login framework
